@@ -1,5 +1,3 @@
-console.log("Hello world");
-
 // 1 --> Preparazione
 // creo una variabile per il messaggio di output per i multipli di 3
 let multiples_of_three;
@@ -14,9 +12,6 @@ let message
 // dichiaro le variabili
 multiples_of_three = "Fizz";
 multiples_of_five = "Buzz";
-
-// stampo le variabili
-console.log(multiples_of_three, multiples_of_five);
 
 // 3 --> Elaborazione codice 
 // creazione del loop
