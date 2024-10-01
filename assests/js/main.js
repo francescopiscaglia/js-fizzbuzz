@@ -7,9 +7,6 @@ let multiples_of_three;
 // creo una variabile per il messaggio di output per i multipli di 5
 let multiples_of_five;
 
-// creo una variabile per il messaggio di output per i multipli di 3 e di 5
-let multiples_of_both;
-
 // creo una variabile message
 let message
 
@@ -30,13 +27,13 @@ for (i = 1; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) { 
         message = `${multiples_of_three} ${multiples_of_five}`
 
-        // verifico se sono multipli di 5
-    } else if (i % 5 === 0) {
-        message = multiples_of_five
-
         // verifico se sono multipli di 3
     } else if (i % 3 === 0) {
         message = multiples_of_three
+
+        // verifico se sono multipli di 5
+    } else if (i % 5 === 0) {
+        message = multiples_of_five
 
         // altrimenti non sono multipli di nessuno dei due
     } else {
